@@ -1,0 +1,1 @@
+#page {  margin: 0 auto;  width: 400px;}header, footer {  text-align: center;  color: #fff;  background: #bbb;}main {  float: right;  width: 200px;  color: #888;}#sub1 {  float: left;  width: 100px;  color: #fff;}#contents {  float: left;  width: 300px;}#sub2 {  float: right;  width: 100px;  color: #fff;}footer {  clear: both;}

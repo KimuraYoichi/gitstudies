@@ -1,0 +1,1 @@
+p:nth-child(odd) {		/* 奇数個目 */  color: white;  background-color: gray;}p:nth-child(even) {		/* 偶数個目 */  color: white;  background-color: silver;}p:nth-child(6) {		/* 6個目 */  color: white;  background-color: red;}

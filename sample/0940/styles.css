@@ -1,0 +1,1 @@
+table {  float: left;  border: 5px solid #999;}th, td {  padding: 0.2em;  border: 3px solid #ccc;}table#sample1 {  border-collapse: collapse;}table#sample2 {  border-collapse: separate;  margin-left: 8px;}

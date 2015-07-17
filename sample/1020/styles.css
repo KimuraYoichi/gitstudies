@@ -1,0 +1,1 @@
+body { margin: 2em; }h1 {  font-size: large;}h1::before {  content: "特別コラム：";  display: block;  font-size: small;  color: #f6d;}h1::after {  content: url(sakura.jpg);  display: block;}

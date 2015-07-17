@@ -1,0 +1,1 @@
+#page {  margin: 0 auto;}header, footer {  text-align: center;  color: #fff;  background: #bbb;}main {  color: #888;  background: #eee;  /* 薄いグレー */}#sub1 {  color: #fff;  background: #390;  /* 緑 */}#sub2 {  color: #fff;  background: #fc0;  /* 黄色 */}footer {  clear: both;}
