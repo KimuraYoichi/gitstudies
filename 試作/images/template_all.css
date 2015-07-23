@@ -1,0 +1,10 @@
+@charset "Shift_JIS";
+
+/* Import for Template Page */
+
+
+
+@import url("base.css");
+@import url("common.css");
+@import url("template.css");
+

@@ -1,0 +1,37 @@
+@charset "Shift_JIS";
+
+
+/* --- ナビゲーションバー --- */
+#example div.nav {
+width: 180px; /* ナビゲーションの幅 */
+font-size: 80%;
+}
+
+/* --- メニューエリア --- */
+#example div.nav ul.nl {
+margin: 0;
+padding: 0;
+border-top: 1px #cccccc solid; /* 最上部の境界線 */
+list-style-type: none;
+text-align: left;
+}
+
+/* --- メニュー項目 --- */
+#example div.nav ul.nl li {
+background: #f9f9f9 url(../image/ver_menu3_back.gif) repeat-x top; /* 項目の背景 */
+border-bottom: 1px #cccccc solid; /* 項目の下境界線 */
+}
+
+/* --- リンク --- */
+#example div.nav ul.nl li a {
+display: block;
+position: relative; /* IE6用 */
+padding: 11px 10px 11px 12px; /* リンクエリアのパディング（上右下左） */
+background: url(../image/ver_menu3_off.gif) no-repeat 3px; /* 左側の三角マーク */
+text-decoration: none; /* テキストの下線（なし） */
+}
+/* --- ポイント時の設定 --- */
+#example div.nav ul.nl li a:hover {
+background: url(../image/ver_menu3_on.gif) no-repeat 3px; /* ポイント時の三角マーク */
+}
+
