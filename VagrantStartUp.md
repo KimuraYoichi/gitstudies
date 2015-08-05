@@ -46,3 +46,20 @@ windows 環境に、仮想マシンを導入して、その上にパッケージ
 `vagrant@precise32:~$`
 
 ------------------------
+## web page を表示してみます。
+sudo apt-get install yum
+sudo yum -y install httpd
+
+sudo service httpd start
+
+sudo chkconfig httpd on
+
+sudo service iptables stop
+
+sudo service iptables off
+
+cd/vd/www/html
+sudo vi index.html
+private_network, ip
+
+vagrant reload
