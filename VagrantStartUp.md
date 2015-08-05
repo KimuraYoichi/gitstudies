@@ -63,3 +63,17 @@ sudo vi index.html
 private_network, ip
 
 vagrant reload
+--------------------------------------
+sudo apt-get install apache2
+
+vi Vagrantfile
+
+config.vm.network "private_network", ip:"192,168.33.1.10"
+
+reload
+
+It works!
+
+This is the default web page for this server.
+
+The web server software is running but no content has been added, yet.
