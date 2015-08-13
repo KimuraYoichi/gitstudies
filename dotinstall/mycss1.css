@@ -1,0 +1,15 @@
+/ * mycss1. css  */
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+#header {
+    background-color: red;
+}
+#main {
+    background-color: blue;
+}
+#footer {
+    background-color: green;
+}
